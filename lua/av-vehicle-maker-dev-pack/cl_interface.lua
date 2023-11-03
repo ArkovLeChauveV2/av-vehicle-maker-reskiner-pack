@@ -120,7 +120,7 @@ local function codeoutput(author, vehName, category, class, vehskin, model, vehb
 AVVehMaker:AddVehicle({
     class = "]] .. class .. [[",
     name = "]] .. vehName .. [[",
-    model = "]] .. class .. [[",
+    model = "]] .. model .. [[",
     baseClass = "]] .. vehbaseclass .. [[",
     category = "]] .. category .. [[",
     author = "]] .. author .. [[",
@@ -200,5 +200,3 @@ function AVVehMaker:OpenConfig()
         main:Remove()
     end
 end
-
-AVVehMaker:OpenConfig()
