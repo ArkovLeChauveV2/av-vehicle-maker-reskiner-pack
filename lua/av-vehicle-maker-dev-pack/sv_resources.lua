@@ -1,0 +1,1 @@
+resource.AddFile("resource/fonts/montserrat-medium.ttf")
